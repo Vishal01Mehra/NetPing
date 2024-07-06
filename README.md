@@ -44,4 +44,4 @@ This Python script provides a GUI to monitor the connection status of various de
 
 ## Usage
    ```python
-   python3 connection_indicator.py
+   python3 NetPing.py
