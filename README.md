@@ -19,8 +19,8 @@ This Python script provides a GUI to monitor the connection status of various de
 
 - Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/Connection-Indicator.git
-   cd Connection-Indicator
+   git clone https://github.com/Vishal01Mehra/NetPing.git
+   cd NetPing
    
 ## Adjusting the Ping Check Interval
 - The interval between ping checks can be adjusted by changing the interval parameter (in milliseconds) when creating NetPing instances:
