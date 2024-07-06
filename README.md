@@ -17,7 +17,26 @@ This Python script provides a GUI to monitor the connection status of various de
 
 ## Installation
 
-1. Clone the repository:
+- Clone the repository:
    ```sh
    git clone https://github.com/yourusername/Connection-Indicator.git
    cd Connection-Indicator
+   
+## Adjusting the Ping Check Interval
+- The interval between ping checks can be adjusted by changing the interval parameter (in milliseconds) when creating NetPing instances:
+   ``` python
+   indicator = ConnectionIndicator(root, name, ip, i, interval=500)
+
+## Adding more devices
+- To monitor additional devices, add them to the devices dictionary in the NetPing.py file:
+   ``` python
+   devices = {
+       'Router': '192.168.1.1',
+       'Camera': '192.168.1.2',
+       'Printer': '192.168.1.3',
+       'New Device': '192.168.1.4'
+   }
+
+## Usage
+   ```python
+   python3 connection_indicator.py
