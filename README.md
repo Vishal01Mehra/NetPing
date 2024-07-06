@@ -1,4 +1,9 @@
-# Connection Indicator
+
+<div style="text-align: right;">
+  <img src="https://github.com/Vishal01Mehra/NetPing/blob/main/Resources/Main.jpg">
+</div>
+
+# NetPing -->
 
 This Python script provides a GUI to monitor the connection status of various devices by pinging their IP addresses. The status is displayed using circular indicators that turn green when a device is reachable and red when it is not.
 
